@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Game</title>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body class="hcenter">
+  <div>
+    <h2>Guess the Animal!!!</h2>
+  </div>
+  <br>
+  <div id="qSpot">
+    <button onclick="ask()" type="button" name="button">Start!!</button>
+  </div>
+  <br>
+  <div class="">
+    <button id="yes" onclick="answer_yes()" type="button" name="button">Yes</button>
+    <button id="no" onclick="answer_no()" type="button" name="button">No</button>
+  </div>
+  <br>
+  <div id="1">
+    <input id="nQ" type="text" placeholder="New question here!" />
+    <button onclick="newQuestion()" type="button" name="button">Submit</button>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
